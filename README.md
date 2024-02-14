@@ -146,3 +146,5 @@ Problembehandlung bei folgendem Fehler: </br> ``MySQL 8.0 - Client does not supp
 - Julian Schuster
 - Niklas Kümmel
 ---
+
+![](https://github.com/JAdelhelm/Studystock-Website-with-Vue.js-and-Node.js)
