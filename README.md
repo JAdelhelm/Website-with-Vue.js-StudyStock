@@ -1,4 +1,8 @@
-<img src="./picture-website.png">
+
+
+
+https://github.com/JAdelhelm/Studystock-Website-with-Vue.js-and-Node.js/assets/83546217/ae165a13-1feb-4a0e-869c-63da2dca3074
+
 
 
 # Instructions
