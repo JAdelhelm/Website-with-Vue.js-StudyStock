@@ -1,0 +1,110 @@
+.download-container {
+    transition: all 0.5s;
+    overflow: hidden;
+    background: rgb(2, 143, 65);
+    // width: 200px;
+    // height: 125px;
+    margin-left: 0;
+    margin-right: auto;
+  
+    position: relative;
+    display: flex;
+    align-items: center;
+    -webkit-box-shadow: 0px 0px 97px -16px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 97px -16px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 97px -16px rgba(0, 0, 0, 0.75);
+    a.btn-download {
+      opacity: 1;
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+      text-transform: uppercase;
+      text-align: center;
+      display: block;
+      position: relative;
+      width: 100%;
+      padding-top: 14px;
+      padding-bottom: 14px;
+      font-family: "Calibri";
+      // font-weight: bold;
+      font-size: 18px;
+      letter-spacing: 0.1rem;
+      transition: transform 0.3s 0.3s;
+      z-index: 10;
+    }
+    .closeBtn {
+      position: absolute;
+      top: 0;
+      right: 0;
+      border: none;
+      background: none;
+      outline: none;
+      opacity: 0;
+      visibility: hidden;
+      cursor: pointer;
+      font-size: 20px;
+      padding-right: 8px;
+      padding-top: 5px;
+      z-index: 20;
+    }
+    .done {
+      z-index: 20;
+      color: #000;
+      position: absolute;
+      font-size: 18px;
+      font-family: "Arial";
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -250%);
+      transition: all 0.3s 1s;
+      opacity: 0;
+      text-align: center;
+      width: 100%;
+      svg {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        padding-bottom: 20px;
+        font-size: 60px;
+        animation: reveal-left 0.5s;
+      }
+    }
+  }
+  
+  @keyframes loading {
+    0% {
+      width: 5%;
+    }
+    30% {
+      width: 25%;
+    }
+    60% {
+      width: 50%;
+    }
+    80% {
+      width: 99%;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  @keyframes reveal-left {
+    from {
+      opacity: 0;
+      transform: translate3d(-50px, 0, 0);
+    }
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  @keyframes reveal-slide {
+    from {
+      opacity: 0;
+      transform: translate3d(0, 100%, 0);
+    }
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+  }

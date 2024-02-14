@@ -1,0 +1,26 @@
+.header {
+  padding: 2%;
+  background-color: rgb(2, 143, 65);
+  font-size: 25px;
+  text-align: center;
+  width: 100%;
+  color: white;
+  height: 150px;
+}
+
+.display-board {
+  width: 100%;
+  background-color: rgba(0, 119, 128, 0.719);
+  padding: 5%;
+}
+
+.number {
+  color: red;
+  font-size: 75px;
+  text-align: center;
+}
+
+canvas {
+  width: 100vw;
+  height: 100vh;
+}

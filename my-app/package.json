@@ -1,0 +1,85 @@
+{
+    "name": "teamprojekt",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "serve": "vue-cli-service serve --port=80",
+        "build": "vue-cli-service build",
+        "lint": "vue-cli-service lint"
+    },
+    "dependencies": {
+        "@dangvanthanh/vue-clock": "^0.2.3",
+        "@popperjs/core": "^2.11.5",
+        "@tensorflow-models/coco-ssd": "^2.2.2",
+        "@tensorflow-models/mobilenet": "^2.1.0",
+        "@tensorflow/tfjs": "^3.19.0",
+        "@tensorflow/tfjs-converter": "^3.19.0",
+        "@tensorflow/tfjs-core": "^3.19.0",
+        "animejs": "^3.2.1",
+        "aws-sdk": "^2.1195.0",
+        "axios": "^0.23.0",
+        "bcrypt": "^5.0.1",
+        "chart.js": "^3.9.1",
+        "clock": "^1.0.2",
+        "cloudinary": "^1.30.0",
+        "core-js": "^3.6.5",
+        "css-star-rating": "^1.3.1",
+        "dat.gui": "^0.7.9",
+        "mock-aws-s3": "^4.0.2",
+        "moment": "^2.29.3",
+        "nock": "^13.2.9",
+        "node-pre-gyp": "^0.17.0",
+        "postprocessing": "^6.28.5",
+        "pug-plain-loader": "^1.1.0",
+        "sharp": "^0.30.7",
+        "socket.io-client": "^3.1.1",
+        "three": "^0.143.0",
+        "three-obj-exporter": "^0.0.1",
+        "three-trackballcontrols": "^0.9.0",
+        "vue": "^2.6.11",
+        "vue-chartjs": "^4.1.1",
+        "vue-chartjs-exporter": "^1.0.2",
+        "vue-clock2": "^1.1.5",
+        "vue-dynamic-star-rating": "^1.0.8",
+        "vue-particle-effect-buttons": "^1.0.4",
+        "vue-plotly": "^1.1.0",
+        "vue-router": "^3.5.3",
+        "vue-socket.io": "^3.0.10",
+        "vuex": "^3.4.0",
+        "vuex-persistedstate": "^4.1.0"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "~4.5.0",
+        "@vue/cli-plugin-eslint": "~4.5.0",
+        "@vue/cli-service": "~4.5.0",
+        "babel-eslint": "^10.1.0",
+        "bootstrap": "^4.6.1",
+        "eslint": "^6.7.2",
+        "eslint-plugin-vue": "^6.2.2",
+        "jquery": "^3.6.0",
+        "popper.js": "^1.16.1",
+        "sass": "^1.54.3",
+        "sass-loader": "^10.3.1",
+        "vue-template-compiler": "^2.6.11",
+        "webpack-node-externals": "^3.0.0"
+    },
+    "eslintConfig": {
+        "root": true,
+        "env": {
+            "node": true
+        },
+        "extends": [
+            "plugin:vue/essential",
+            "eslint:recommended"
+        ],
+        "parserOptions": {
+            "parser": "babel-eslint"
+        },
+        "rules": {}
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions",
+        "not dead"
+    ]
+}
