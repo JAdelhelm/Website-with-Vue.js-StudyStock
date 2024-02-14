@@ -1,8 +1,4 @@
-
-
-
-https://github.com/JAdelhelm/Studystock-Website-with-Vue.js-and-Node.js/assets/83546217/ae165a13-1feb-4a0e-869c-63da2dca3074
-
+<img src="./picture-website.png">
 
 
 # Instructions
@@ -37,6 +33,13 @@ https://github.com/JAdelhelm/Studystock-Website-with-Vue.js-and-Node.js/assets/8
   "email": "test@informatik.hs-fulda.de",
   "password": "123456789",
   "password_repeat": "123456789"
+}
+```
+12. Uploaded media can be disabled by the admin with (create_tables.js - line 106):
+```json
+{
+  "username": "admin",
+  "password": "admin12345",
 }
 ```
 ## Backend
@@ -94,6 +97,11 @@ https://github.com/JAdelhelm/Studystock-Website-with-Vue.js-and-Node.js/assets/8
   "password_repeat": "123456789"
 }
 ```
+12. Hochgeladene Medien können vom admin feigeschaltet werden, mit (create_tables.js - Zeile 106):
+{
+  "username": "admin",
+  "password": "admin12345",
+}
 ## Backend
 1. In das Oberverzeichnis navigieren und ``npm run dev`` ausführen
 2. Üblicherweise auf Port: 8080
@@ -150,5 +158,3 @@ Problembehandlung bei folgendem Fehler: </br> ``MySQL 8.0 - Client does not supp
 - Julian Schuster
 - Niklas Kümmel
 ---
-
-![](https://github.com/JAdelhelm/Studystock-Website-with-Vue.js-and-Node.js)

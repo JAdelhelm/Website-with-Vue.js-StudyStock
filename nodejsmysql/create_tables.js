@@ -88,29 +88,29 @@ function queryDatabase() {
 
     /* Tabellen füllen */
     //Benutzer
-    con.query('INSERT INTO benutzer (name, password, email, description, rolle, datum_registration, last_login) VALUES (?, ?, ?, ?, ?, ?, ?);', ['Joe', '$2a$10$KnuR3jB1U6x4i6rSkx.dqeJa7mifH.GU7/Fte9VoDEcq3/3tL8B2q', 'Joe@informatik.hs-fulda.de', 'Ich bin Joe und ich mag Züge', 0, fns.format(new Date(), "yyyy-MM-dd' 'HH:mm:ss"), fns.format(new Date(), "yyyy-MM-dd' 'HH:mm:ss")],
+    con.query('INSERT INTO benutzer (name, password, email, description, rolle, datum_registration, last_login) VALUES (?, ?, ?, ?, ?, ?, ?);', ['Joe', '$2a$10$QbA58OV2kP.icxJE54Fr5uKM.XSv6gDvERopVraLZZd9mcDlL27Q2', 'Joe@informatik.hs-fulda.de', 'Ich bin Joe und ich mag Züge', 0, fns.format(new Date(), "yyyy-MM-dd' 'HH:mm:ss"), fns.format(new Date(), "yyyy-MM-dd' 'HH:mm:ss")],
         function (err, results, fields) {
             if (err) throw err;
             else console.log('Inserted ' + results.affectedRows + ' row(s).');
         })
-    con.query('INSERT INTO benutzer (name, password, email, description, rolle, datum_registration, last_login) VALUES (?, ?, ?, ?, ?, ?, ?);', ['Peter', '$2a$10$KnuR3jB1U6x4i6rSkx.dqeJa7mifH.GU7/Fte9VoDEcq3/3tL8B2q', 'Peter@informatik.hs-fulda.de', 'Ich bin Peter und ich mag Züge', 0, fns.format(new Date(), "yyyy-MM-dd' 'HH:mm:ss"), fns.format(new Date(), "yyyy-MM-dd' 'HH:mm:ss")],
+    con.query('INSERT INTO benutzer (name, password, email, description, rolle, datum_registration, last_login) VALUES (?, ?, ?, ?, ?, ?, ?);', ['Peter', '$2a$10$QbA58OV2kP.icxJE54Fr5uKM.XSv6gDvERopVraLZZd9mcDlL27Q2', 'Peter@informatik.hs-fulda.de', 'Ich bin Peter und ich mag Züge', 0, fns.format(new Date(), "yyyy-MM-dd' 'HH:mm:ss"), fns.format(new Date(), "yyyy-MM-dd' 'HH:mm:ss")],
         function (err, results, fields) {
             if (err) throw err;
             else console.log('Inserted ' + results.affectedRows + ' row(s).');
         })
-    con.query('INSERT INTO benutzer (name, password, email, description, rolle, datum_registration, last_login) VALUES (?, ?, ?, ?, ?, ?, ?);', ['Hans', '$2a$10$KnuR3jB1U6x4i6rSkx.dqeJa7mifH.GU7/Fte9VoDEcq3/3tL8B2q', 'Hans@informatik.hs-fulda.de', 'Ich bin Hans und ich mag Züge', 0, fns.format(new Date(), "yyyy-MM-dd' 'HH:mm:ss"), fns.format(new Date(), "yyyy-MM-dd' 'HH:mm:ss")],
+    con.query('INSERT INTO benutzer (name, password, email, description, rolle, datum_registration, last_login) VALUES (?, ?, ?, ?, ?, ?, ?);', ['Hans', '$2a$10$QbA58OV2kP.icxJE54Fr5uKM.XSv6gDvERopVraLZZd9mcDlL27Q2', 'Hans@informatik.hs-fulda.de', 'Ich bin Hans und ich mag Züge', 0, fns.format(new Date(), "yyyy-MM-dd' 'HH:mm:ss"), fns.format(new Date(), "yyyy-MM-dd' 'HH:mm:ss")],
         function (err, results, fields) {
             if (err) throw err;
             else console.log('Inserted ' + results.affectedRows + ' row(s).');
         })
-    con.query('INSERT INTO benutzer (name, password, email, description, rolle, datum_registration, last_login) VALUES (?, ?, ?, ?, ?, ?, ?);', ['admin', '$2a$10$KnuR3jB1U6x4i6rSkx.dqeJa7mifH.GU7/Fte9VoDEcq3/3tL8B2q', 'admin@informatik.hs-fulda.de', 'Ich bin der Admin und ich mag Züge', 1, fns.format(new Date(), "yyyy-MM-dd' 'HH:mm:ss"), fns.format(new Date(), "yyyy-MM-dd' 'HH:mm:ss")],
+    con.query('INSERT INTO benutzer (name, password, email, description, rolle, datum_registration, last_login) VALUES (?, ?, ?, ?, ?, ?, ?);', ['admin', '$2a$10$QbA58OV2kP.icxJE54Fr5uKM.XSv6gDvERopVraLZZd9mcDlL27Q2', 'admin@informatik.hs-fulda.de', 'Ich bin der Admin und ich mag Züge', 1, fns.format(new Date(), "yyyy-MM-dd' 'HH:mm:ss"), fns.format(new Date(), "yyyy-MM-dd' 'HH:mm:ss")],
         function (err, results, fields) {
             if (err) throw err;
             else console.log('Inserted ' + results.affectedRows + ' row(s).');
         })
 
     // Mehrzeilge benutzer_id hinzugefügt - gleiches Passwort wie admin
-    con.query('INSERT INTO benutzer (id, name, password, email, description, rolle, datum_registration, last_login) VALUES (?,?, ?, ?, ?, ?, ?, ?);', [1337, 'admin2', '$2a$10$KnuR3jB1U6x4i6rSkx.dqeJa7mifH.GU7/Fte9VoDEcq3/3tL8B2q', 'admin@informatik.hs-fulda.de', 'Hallo', 1, fns.format(new Date(), "yyyy-MM-dd' 'HH:mm:ss"), fns.format(new Date(), "yyyy-MM-dd' 'HH:mm:ss")],
+    con.query('INSERT INTO benutzer (id, name, password, email, description, rolle, datum_registration, last_login) VALUES (?,?, ?, ?, ?, ?, ?, ?);', [1337, 'admin2', '$2a$10$QbA58OV2kP.icxJE54Fr5uKM.XSv6gDvERopVraLZZd9mcDlL27Q2', 'admin@informatik.hs-fulda.de', 'Hallo', 1, fns.format(new Date(), "yyyy-MM-dd' 'HH:mm:ss"), fns.format(new Date(), "yyyy-MM-dd' 'HH:mm:ss")],
         function (err, results, fields) {
             if (err) throw err;
             else console.log('Inserted ' + results.affectedRows + ' row(s).');
