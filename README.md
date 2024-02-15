@@ -1,3 +1,7 @@
+# Studystock - Exchange platform for students
+The website offers the possibility to search and filter for media. Media can be available in various forms, such as images, audio or videos. Uploaded content is displayed on the start page as soon as an offer has been created and the admin has activated it.  Users can also be created and can contact each other via chat.  Furthermore, it is also possible to offer services to other students / users. User data is stored in encrypted form in a MySQL database.
+
+
 https://github.com/JAdelhelm/Studystock-Website-with-Vue.js-and-Node.js/assets/83546217/a862ae86-c6a7-4cf6-ba4d-78be4da8d4bd
 
 <img src="./picture-website.png">
