@@ -41,7 +41,7 @@ https://github.com/JAdelhelm/Studystock-Website-with-Vue.js-and-Node.js/assets/8
   "password_repeat": "123456789"
 }
 ```
-12. Uploaded media can be disabled by the admin with (create_tables.js - line 106):
+12. Uploaded media can be unlocked by the admin with (create_tables.js - line 106):
 ```json
 {
   "username": "admin",
