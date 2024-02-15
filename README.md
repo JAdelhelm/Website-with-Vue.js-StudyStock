@@ -52,13 +52,6 @@ https://github.com/JAdelhelm/Studystock-Website-with-Vue.js-and-Node.js/assets/8
   "password": "admin12345",
 }
 ```
-## Backend
-1. Navigate to the root directory and execute `npm run dev`
-2. Usually on port: 8080
-## Frontend
-1. Navigate to the folder `my-app` and execute `npm run serve`
-- If there are errors with ``npm run serve``, execute: ``NODE_OPTIONS=--openssl-legacy-provider npm run serve``
-2. Usually on port: 80
 
 
 ### Accessing the Database Server
