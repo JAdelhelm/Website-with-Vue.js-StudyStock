@@ -63,13 +63,6 @@ https://github.com/JAdelhelm/Studystock-Website-with-Vue.js-and-Node.js/assets/8
    5. Test Connection
    6. If the connection is established, then click "OK"
 
-#  Anleitung
-1.  ``git clone``
-    -  Git Bash öffnen und zum Ordner navigieren
-2. In das Repositorium navigieren
-3. ``npm install`` ausführen (Im Oberverzeichnis)
-4. ``npm install`` ausführen im Ordner ``my-app``
-
 
 
 ## A major contribution from my side was the integration of automated tagging with machine learning
